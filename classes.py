@@ -8,7 +8,7 @@ class Course:
         print ("class size:" + str(self.size) + " people")
 
 c1 = Course("Math" , 50)
-c1.myfunc()
+
 
 class Student: 
     def __init__(self, name, age):
@@ -20,5 +20,8 @@ class Student:
         print ("Student age: "+ str(self.age))
 
 s1 = Student ("Hugh" , 16)
-s1.fn()
 
+
+if __name__ =="__main__":
+    s1.fn()
+    c1.myfunc()

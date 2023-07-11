@@ -13,7 +13,7 @@ print ("result_2 is ", result_2)
 result_3 = randint(0,100)
 print ("result_3 is" , result_3)
 
-names = {"a", "b", "c", "d", "e", "f", "g"}
+names = ("a", "b", "c", "d", "e", "f", "g")
 print("Originl names: " , names)
 
 shuffle(names)
